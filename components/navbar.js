@@ -51,7 +51,7 @@ const Navbar = props => {
             wrap = "wrap"
             align = "center"
             justify = "space-between">
-                <Flex align = "center" mt = {1.5} mr = {2}>
+                <Flex align = "center" mt = {1.5}>
                     <Heading as = "h1" size = "lg">
                         <Logo/>
                     </Heading>
@@ -66,7 +66,6 @@ const Navbar = props => {
                     alignItems = "center"
                     flexGrow = {1}
                     spacing = {16}
-                    ml = {5}
                     mt = {{base: 4, md: 1}}
                     className = "navbar-links"
                     >
@@ -80,7 +79,7 @@ const Navbar = props => {
                     </LinkItem>
 
                     <LinkItem href = "/contact" path = {path}>
-                        Contact Me
+                        Contact
                     </LinkItem>
                     </Stack>
                 </Box>

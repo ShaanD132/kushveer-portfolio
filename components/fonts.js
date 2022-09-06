@@ -27,7 +27,7 @@ const Fonts = () => (
     @font-face {
         font-family: "Grotesk";
         src:
-            url("/fonts/Gortesk1001GX.ttf")
+            url("/fonts/Grotesk1001GX.ttf")
             format("truetype");
     }
 
@@ -36,6 +36,13 @@ const Fonts = () => (
         src:
             url("/fonts/modrnt_urban.ttf")
             format("truetype");
+    }
+
+    @font-face {
+        font-family: "Outfit Bold";
+        src:
+            url("/fonts/Outfit-Bold.otf")
+            format("opentype");
     }
     `} />
 )

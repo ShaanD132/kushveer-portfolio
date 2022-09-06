@@ -1,4 +1,5 @@
-import {Container, Box, Heading, Flex, Image, Spacer, Button} from "@chakra-ui/react"
+import {Container, Box, Heading, Flex, Image, Spacer} from "@chakra-ui/react"
+import Link from "next/link"
 import Layout from "../components/layouts/article"
 import Section from "../components/layouts/section"
 
@@ -26,7 +27,7 @@ const Index = () => {
                 </Section>
 
                 <Section delay = {0.8}>
-                    <Box mt = {12}>
+                    <Box mt = {14}>
                         <Flex direction = "row">
                             <Box align = "center">
                                 <Image src = "/images/guru_pfp.jpeg" alt = "Kushveer" w = "100%" />
@@ -47,19 +48,19 @@ const Index = () => {
                             </Heading>
 
                             <Box pl = {7} mt = {4} align = "left">
-                                <Heading as = "h3"  fontFamily = "Grotesk" fontSize = {{base: 16, md: 18, lg: 24}} fontWeight = "normal" letterSpacing = "normal">
+                                <Heading as = "h3"  fontFamily = "Grotesk" fontSize = {{base: 16, md: 18, lg: 22}} fontWeight = "normal" letterSpacing = "normal">
                                     M1: How to Draw a Croissant
                                 </Heading>
 
-                                <Heading as = "h3" fontFamily = "Grotesk" fontSize = {{base: 16, md: 18, lg: 24}} mt = {6} fontWeight = "normal" letterSpacing = "normal">
+                                <Heading as = "h3" fontFamily = "Grotesk" fontSize = {{base: 16, md: 18, lg: 22}} mt = {6} fontWeight = "normal" letterSpacing = "normal">
                                     M2: Flatness vs Projection
                                 </Heading>
 
-                                <Heading as = "h3" fontFamily = "Grotesk" fontSize = {{base: 16, md: 18, lg: 24}} mt = {6} fontWeight = "normal" letterSpacing = "normal">
+                                <Heading as = "h3" fontFamily = "Grotesk" fontSize = {{base: 16, md: 18, lg: 22}} mt = {6} fontWeight = "normal" letterSpacing = "normal">
                                     M3: Surface vs Pattern
                                 </Heading>
 
-                                <Heading as = "h3" fontFamily = "Grotesk" fontSize = {{base: 16, md: 18, lg: 24}} mt = {6} fontWeight = "normal" letterSpacing = "normal">
+                                <Heading as = "h3" fontFamily = "Grotesk" fontSize = {{base: 16, md: 18, lg: 22}} mt = {6} fontWeight = "normal" letterSpacing = "normal">
                                     M4: Frame vs Field
                                 </Heading>
                             </Box>
@@ -69,13 +70,23 @@ const Index = () => {
                     <Spacer />
 
                     <Section delay = {1.2}>
-                        <Box>
+                        <Box className = "portfolio-link">
                             <Heading as = "h2" fontFamily = "Vetrino" fontSize = {{base: 28, md: 32, lg: 55}} color = "#EDF7F6" align = "left" fontWeight = "normal" letterSpacing = "normal">
                                 Portfolio
                             </Heading>
 
-                            <Box pl = {7} mt = {4} align = "left">
-                                <Button>Slide</Button>
+                            <Box pl = {7} mt = {10} align = "left">
+                                <Box align = "center">
+                                    <Link href = "/portfolio">
+                                        <Box className = "portfolio-button" fontFamily = "Grotesk" fontSize = {{base: 14, md: 16, lg: 18}}>
+                                            Click Me to Navigate!
+                                        </Box>
+                                    </Link>
+                                </Box>
+
+                                <Box h = "200px">
+
+                                </Box>
                             </Box>
                         </Box>
                     </Section>

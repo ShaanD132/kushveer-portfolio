@@ -1,0 +1,30 @@
+{
+  "name": "Kushveer's Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build && next export"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "NIC",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.9",
+    "@chakra-ui/react": "^2.3.1",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "framer-motion": "^7.2.1",
+    "i": "^0.3.7",
+    "next": "^12.2.5",
+    "npm": "^8.19.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-next": "^12.2.5",
+    "prettier": "^2.7.1"
+  }
+}

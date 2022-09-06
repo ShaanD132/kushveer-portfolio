@@ -23,7 +23,7 @@ const Index = () => {
                             </Box>
 
                             <Box w = "100%" pl = {20} fontFamily = "Grotesk" fontSize = {19}>
-                                Hi, my name is Kushveer. I'm currently in my first year of study at the University of Melbourne, where I'm studying architecture. I've always been very passionate about design which can be seen with my background in graphic design. This website contains the projects for 
+                                Hi, my name is Kushveer. I&apos;m currently in my first year of study at the University of Melbourne, where I&apos;m studying architecture. I&apos;ve always been very passionate about design which can be seen with my background in graphic design. This website contains the projects for 
                             </Box>
                         </Flex>
                     </Box>

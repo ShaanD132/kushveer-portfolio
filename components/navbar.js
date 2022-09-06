@@ -13,13 +13,11 @@ import {
     MenuButton,
     IconButton,
     useColorModeValue,
-    textDecoration
 } from "@chakra-ui/react"
 import { HamburgerIcon } from "@chakra-ui/icons"
 
 const LinkItem = ({href, path, children}) => {
     const active = path === href
-    const inactiveColor = "white"
     return(
         <NextLink href = {href} >
             <Link

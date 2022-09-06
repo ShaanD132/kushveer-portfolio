@@ -57,19 +57,16 @@ const Navbar = props => {
                     </Heading>
                 </Flex>
 
-                <Box>
+                <Box className = "navbar-links">
                     <Stack
                     direction = {{base: "column", md: "row"}}
                     width = {{base: "full", md: "auto"}}
                     display = {{base: "none", md: "flex"}}
                     align = "center"
                     alignItems = "center"
-                    flexGrow = {1}
                     spacing = {16}
                     mt = {{base: 4, md: 1}}
-                    className = "navbar-links"
                     >
-
                     <LinkItem href = "/portfolio" path = {path}>
                             Portfolio
                     </LinkItem>

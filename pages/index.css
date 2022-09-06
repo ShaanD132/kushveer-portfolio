@@ -1,4 +1,8 @@
-
+.navbar-links {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
 
 .home-img {
     width: 800px;

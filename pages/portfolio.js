@@ -9,11 +9,11 @@ const Portfolio = () => {
                 <Section delay = {0.1}>
                     <Box mt = {16}>
                             <Heading as = "h2" fontFamily = "Aspekta" variant = "section-title" color = "#CAE9FF">
-                                Kushveer Ramessur
+                                Portfolio
                             </Heading>
 
                         <Box align = "justify" px = {10} py = {3} fontSize = {18} fontFamily = "Zacbel X Medium">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut erat mauris. Integer lectus lacus, faucibus at gravida ut, mollis eu elit. Nulla posuere metus nulla, sed elementum ipsum porttitor sit amet. Mauris in viverra eros. Vivamus posuere arcu vel massa volutpat luctus. Duis id augue a nunc porttitor lobortis.
+                            Fancier Grid Layout
                         </Box>
                     </Box>
                 </Section>

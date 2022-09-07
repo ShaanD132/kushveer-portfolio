@@ -71,22 +71,12 @@ const Index = () => {
 
                     <Section delay = {1.2}>
                         <Box className = "portfolio-link">
-                            <Heading as = "h2" fontFamily = "Vetrino" fontSize = {{base: 28, md: 32, lg: 55}} color = "#EDF7F6" align = "left" fontWeight = "normal" letterSpacing = "normal">
+                            <Heading as = "h2" fontFamily = "Vetrino" fontSize = {{base: 28, md: 32, lg: 55}} color = "#EDF7F6" align = "left" fontWeight = "normal" letterSpacing = "normal" className = "portfolio-heading">
                                 Portfolio
                             </Heading>
 
-                            <Box pl = {7} mt = {10} align = "left">
-                                <Box align = "center">
-                                    <Link href = "/portfolio">
-                                        <Box className = "portfolio-button" fontFamily = "Grotesk" fontSize = {{base: 14, md: 16, lg: 18}}>
-                                            Click Me to Navigate!
-                                        </Box>
-                                    </Link>
-                                </Box>
-
-                                <Box h = "200px">
-
-                                </Box>
+                            <Box mt = {10} align = "left">
+                                Grid Layout for projects (different views) and go to their indiv pages
                             </Box>
                         </Box>
                     </Section>

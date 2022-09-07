@@ -1,5 +1,4 @@
 import {Container, Box, Heading, Flex, Image, Spacer} from "@chakra-ui/react"
-import Link from "next/link"
 import Layout from "../components/layouts/article"
 import Section from "../components/layouts/section"
 
